@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8280" started-at="2019-04-13T08:17:39Z" finished-at="2019-04-13T08:17:48Z">
+    <groups>
+    </groups>
+    <test name="Login guru on Chrome" duration-ms="8280" started-at="2019-04-13T08:17:39Z" finished-at="2019-04-13T08:17:48Z">
+      <class name="bankGuruTestcases.RegisterScript">
+        <test-method status="FAIL" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:bankGuruTestcases.RegisterScript@29ee9faa]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-04-13T15:17:39Z" finished-at="2019-04-13T15:17:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.47]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://demo.guru99.com/v4]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA[org.openqa.selenium.support.ui.WebDriverWait.until(Ljava/util/function/Function;)Ljava/lang/Object;]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: org.openqa.selenium.support.ui.WebDriverWait.until(Ljava/util/function/Function;)Ljava/lang/Object;
+	at commonPage.CommonFunctions.waitVisible(CommonFunctions.java:347)
+	at bankGuruActions.LoginPage.ClickHereLink(LoginPage.java:17)
+	at bankGuruTestcases.RegisterScript.beforeClass(RegisterScript.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="getAccountRegister()[pri:0, instance:bankGuruTestcases.RegisterScript@29ee9faa]" name="getAccountRegister" duration-ms="2" started-at="2019-04-13T15:17:48Z" finished-at="2019-04-13T15:17:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAccountRegister -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:bankGuruTestcases.RegisterScript@29ee9faa]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-04-13T15:17:48Z" finished-at="2019-04-13T15:17:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- bankGuruTestcases.RegisterScript -->
+    </test> <!-- Login guru on Chrome -->
+  </suite> <!-- Suite -->
+</testng-results>
